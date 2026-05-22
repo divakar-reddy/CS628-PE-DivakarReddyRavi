@@ -1,0 +1,16 @@
+.addCity-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form>input {
+    margin-bottom: 2%;
+}
+
+button {
+    background-color: rgb(40, 138, 237);
+    color: white;
+}
