@@ -1,0 +1,44 @@
+.fluid-container {
+    /* max-width: 600px;
+    margin: auto;
+    padding: 20px; */
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-container > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active {
+    font-weight: bold;
+    background-color: darkgray;
+    color: white;
+    border-radius: 8px;
+    padding: 2px;
+  }
